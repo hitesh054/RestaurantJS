@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha app.test.js"
+    "test": "mocha app.test.js",
+    "coverage": "nyc --reporter=lcov --report-dir ./.coverage/ npm run test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^8.2.1",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "nyc": "^15.1.0"
   }
 }

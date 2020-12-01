@@ -5,7 +5,6 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-// let menuMap = new Map();
 let menuMap = new Map([
     ['Dosa', 90.00],
     ['Idli', 40.00],
